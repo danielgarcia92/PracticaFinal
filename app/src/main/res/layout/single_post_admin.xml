@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/idequipoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:padding="10dp"
+        android:textColor="#333"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:hint="equipo" />
+
+    <EditText
+        android:id="@+id/idpjA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:padding="10dp"
+        android:textColor="#333"
+        android:inputType="number"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:hint="PJ" />
+
+    <EditText
+        android:id="@+id/iddgA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:padding="10dp"
+        android:textColor="#333"
+        android:inputType="number"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:hint="DG" />
+
+    <EditText
+        android:id="@+id/idptA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:padding="10dp"
+        android:textColor="#333"
+        android:inputType="number"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:hint="PT" />
+
+</LinearLayout>

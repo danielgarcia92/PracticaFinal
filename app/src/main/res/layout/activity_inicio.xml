@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="128sp"
+        android:layout_height="128sp"
+        android:id="@+id/imageButton"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/administrador"
+        android:layout_marginTop="82sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="Administrador"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adminString"
+        android:textSize="@dimen/abc_action_bar_progress_bar_size"
+        android:textStyle="bold|normal"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/usuario"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_marginTop="84sp"
+        android:onClick="Usuario"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuarioString"
+        android:textSize="@dimen/abc_action_bar_progress_bar_size"
+        android:textStyle="bold|normal"
+        android:layout_below="@+id/imageButton2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

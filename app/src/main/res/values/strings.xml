@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">PracticaFinal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_clase_admin">ClaseAdmin</string>
+    <string name="title_activity_clase_usuario">ClaseUsuario</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="adminString">Administrador</string>
+    <string name="usuarioString">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Ingresar</string>
+    <string name="Arsenal">Arsenal</string>
+
+</resources>
